@@ -1,0 +1,29 @@
+Polymorphism in java is a concept by which we can perform a single action by different ways.
+Polymorphism is derived from 2 greek words: poly and morphs. 
+The word "poly" means many and "morphs" means forms. So polymorphism means many forms.
+There are two types of polymorphism in java: compile time polymorphism and runtime polymorphism.
+We can perform polymorphism in java by method overloading and method overriding.
+
+Run Time polymorpysm/Dynamic Polymorphism - Method overriding
+Compile time polymorphism/static polimorphism - Method Overloading
+
+Method Overriding -> 
+overriding provide the specific implementation of method in IsA relationship (inheritance) 
+remember overridden method should not have restrictive access modifier.
+e.g if base class method has access modifier - default then overridden method can have default or protected or public    
+
+Method overloading -> 
+If a class has multiple methods having same name but different in parameters, it is known as Method Overloading. 
+It is possible by - 
+Changing no of argument 
+Changing type of argument
+
+Can not possible by changginng return type
+
+
+Static binding & Dynamic binding
+(Object, refeerance, datatype has type)
+
+Static or early binding - when type is determined in compile time. Static, private Final type are static binding.
+Dynamic binding - when type determine in run time. in case of method override object is upcased then type can not be determined
+baseclass obj = new childclass()
