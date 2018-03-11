@@ -1,0 +1,6 @@
+Inner class is class within a class.
+Four type of inner class - 
+a) Normal or regular inner class
+b) Method local inner class
+c) Annanomas inner class
+d) Static nested class class
