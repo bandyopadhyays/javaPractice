@@ -13,7 +13,7 @@ public class DistinctElement {
 			boolean flag = false;
 			for (int j = 0; j < i; j++) {
 				if (input[i] == input[j]) {
-					flag = false;
+					//flag = false;
 					flag = true;
 				}
 			}
@@ -24,7 +24,7 @@ public class DistinctElement {
 	}
 	
 	public static void main(String[] args) {
-		int[] arr = {1,2,3,4,9,5,8,1,9,9};
+		int[] arr = {1,2,3,4,9,5,8,5,1,9,9};
 		distinctElement(arr);
 		
 	}

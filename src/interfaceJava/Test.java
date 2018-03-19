@@ -22,9 +22,12 @@ public class Test implements TestInterfaceOne, TestInterfaceTwo {
 
 	public static void main(String[] args) {
 		Test obj = new Test();
+		
 		obj.run();
 		obj.model();
 		obj.car();
 		System.out.println(TestInterface.num);
+		TestInterface.interfaceMethod();
+		obj.interfaceMethod1();
 	}
 }
