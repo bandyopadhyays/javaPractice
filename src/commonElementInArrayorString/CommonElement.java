@@ -20,7 +20,7 @@ public class CommonElement {
 	}
 
 	public static void main(String[] args) {
-		int[] input = { 1, 2, 3, 8, 9, 5, 4, 6, 7, 1, 8, 6, 3, 77, 2, 3, 9 };
+		int[] input = { 1, 1, 2, 3, 8, 9, 5, 4, 6, 7, 1, 8, 6, 3, 77, 2, 3, 9 };
 		CommonElement obj = new CommonElement();
 		for (int i = 0; i < input.length; i++) {
 			System.out.print(input[i] + " ");

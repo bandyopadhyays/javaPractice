@@ -6,7 +6,7 @@ package finalKeywordJava;
  * 
  * final can be associated with variable, method or class.
  * 
- * final variable - value can not be changed. if you use blank final variable then use constructor. 
+ * final variable -> value can not be changed. if you use blank final variable then use constructor. 
  * 
  * final method -> method can not be . but you can inherit the final method.
  * 
@@ -15,5 +15,7 @@ package finalKeywordJava;
  */
 
 public class Info {
-
+	/**
+	 * INFO CLASS
+	 */
 }

@@ -9,7 +9,7 @@ public enum Apple {
 	unknown()
 	;
 	
-	private int PRICE;
+	private final int PRICE;
 	
 	// constructor to initialized the value
 	Apple(int price) {

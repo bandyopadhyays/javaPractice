@@ -15,6 +15,7 @@ public class DistinctElement {
 				if (input[i] == input[j]) {
 					//flag = false;
 					flag = true;
+					break;
 				}
 			}
 			if (!flag) {
@@ -24,7 +25,7 @@ public class DistinctElement {
 	}
 	
 	public static void main(String[] args) {
-		int[] arr = {1,2,3,4,9,5,8,5,1,9,9};
+		int[] arr = {1,1,2,1,3,4,9,5,8,5,1,9,9};
 		distinctElement(arr);
 		
 	}

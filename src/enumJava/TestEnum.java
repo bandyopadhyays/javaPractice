@@ -7,12 +7,15 @@ public class TestEnum {
 	/**
 	 * 
 	 * remember enum can have main method
+	 * we can not call enum method directly unless it is static. 
+	 * to call enum method we need to assign value in it.
 	 * 
 	 */
 	
 	
 	public static void main(String[] args) {
 		System.out.println("Please enter a direction...");
+		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 		String in = input.next();
 		DirectionEnum1 objEnum = DirectionEnum1.valueOf(in);
@@ -44,6 +47,10 @@ public class TestEnum {
 		for(Apple a : Apple.values()) {
 			System.out.println(a + " " + a.getPrice());
 		}
+		
+		Apple a = Apple.valueOf("nagpur");
+		System.out.println(a.getPrice());
+		
 	}
 
 }
