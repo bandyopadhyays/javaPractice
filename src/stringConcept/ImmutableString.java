@@ -12,6 +12,10 @@ public class ImmutableString {
 		s.concat(" Banerjee");  // concat method will append the string at the end.
 		System.out.println(s);  // this will print souni only as new string "souni banerjee" does not have any reference to point on this object
 		
+		String s3 = "souni banerjee";
+		s3.trim();
+		System.out.println(s3);
+		
 		String s1 = "Souni"; // no new object will be created. s and s1 will be pointing to same object.
 		System.out.println(s1);
 		

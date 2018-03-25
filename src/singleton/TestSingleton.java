@@ -9,5 +9,10 @@ public class TestSingleton {
 		
 		FinalClass obj2 = new FinalClass();
 		obj2.print();
+		
+		System.out.println("---------------------------------");
+		
+		SingletonApproach objS = SingletonApproach.getInstance();
+		objS.print();
 	}
 }

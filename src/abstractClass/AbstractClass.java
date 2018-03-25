@@ -12,12 +12,13 @@ public abstract class AbstractClass {
 	
 	public final int gear = 5;
 	int code = 1234;
+	
 	public abstract void run();
 
 	abstract void car();
 
 	public void wheel() {
-		System.out.println("No.Of wheel is 4");
+		System.out.println("No.Of wheel is 4 in abstract class");
 	}
 
 }

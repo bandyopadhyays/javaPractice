@@ -1,6 +1,7 @@
 package exceptionHandling;
 
-public class CustomException extends Exception{
+@SuppressWarnings("serial")
+public class CustomException extends Exception {
 
 	CustomException(String str) {
 		super(str);
