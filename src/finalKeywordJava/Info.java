@@ -8,7 +8,7 @@ package finalKeywordJava;
  * 
  * final variable -> value can not be changed. if you use blank final variable then use constructor. 
  * 
- * final method -> method can not be . but you can inherit the final method.
+ * final method -> method can not be overriden. but you can inherit the final method.
  * 
  * final class -> to stop inheritance. 
  *
